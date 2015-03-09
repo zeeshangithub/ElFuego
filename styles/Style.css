@@ -1,0 +1,106 @@
+body{
+
+}
+.banner{
+background: url(../Images/header-pic.jpg);
+background-repeat: no-repeat;
+background-position: 50%;
+overflow: hidden;
+position: relative;
+height: 100vh;
+background-size:cover;
+}
+.banner .banner_content{
+width:1170px;
+margin:0 auto;
+overflow:hidden;
+padding:0 0 10vh 0 ;
+}
+.logo{
+background: url(../Images/elfuego-logo.png) no-repeat;
+padding: 80px 0 0 68px;
+float: left;
+text-indent: -99999px;
+margin: 10px 0 0 0;;
+}
+#navigation{
+float:right;
+margin:63px  0 0 0;
+}
+#navigation ul {
+    overflow:hidden;
+
+}
+#navigation ul li {
+float:left;
+position:relative;
+padding: 0 0 0 50px;
+list-style:none;
+text-decoration: none;
+font-size:18px;
+}
+#navigation ul li a{
+color:#bebebe;
+text-decoration: none;
+}
+ .banner .banner_content #navigation ul li:nth-child(1){
+padding:0;
+}
+#navigation ul li a:hover{
+color:white;
+}
+ .banner  .banner_content_txt{
+margin: 0 auto;
+width: 870px;
+overflow: hidden;
+text-align: center;
+ }
+ .banner  .banner_content_txt h2 {
+ font-size:63px;
+ color:white;
+ padding:0 0 25px 0;
+ }
+  .banner  .banner_content_txt p{
+color: #b4c1c9;
+font-size: 26px;
+width: 682px;
+margin: 0 auto;
+padding:0 0 45px 0;
+
+  }
+  .banner  .banner_content_btn{
+ margin:0 auto;
+ width:400px;
+ text-align: center;
+ padding:0 0 15vh 0;
+ }
+ .banner  .banner_content_btn #banner_button{
+ Margin:0 18px 0 0;
+  background:#e40b1e;
+
+ }
+  .banner  .banner_content_btn #banner_button1{
+background:#a88f1a;
+ }
+ .banner  .banner_content_btn  .baner_btn{
+border-radius: 19px;
+border-style: none none;
+color: white;
+font-size: 20px;
+height: 50px;
+width:180px;
+ }
+.banner  .banner_content_img{
+width:125px;
+margin:0 auto;
+}
+.specialOfer{
+background: url(../Images/special-offersbg.jpg) no-repeat;
+}
+.specialOfer_content{
+width:1170px;
+margin:0 auto;
+overflow:hidden;
+
+}
+ 
