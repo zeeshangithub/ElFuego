@@ -72,15 +72,20 @@ padding:0 0 45px 0;
  margin:0 auto;
  width:400px;
  text-align: center;
- padding:0 0 15vh 0;
+ padding:0 0 21vh 0;
  }
  .banner  .banner_content_btn #banner_button{
  Margin:0 18px 0 0;
   background:#e40b1e;
-
- }
+  }
+   .banner  .banner_content_btn #banner_button:hover{
+  background:#ff0e23; 
+  }
   .banner  .banner_content_btn #banner_button1{
 background:#a88f1a;
+ }
+  .banner  .banner_content_btn #banner_button1:hover{
+background:#c2a51f;
  }
  .banner  .banner_content_btn  .baner_btn{
 border-radius: 19px;
@@ -96,11 +101,276 @@ margin:0 auto;
 }
 .specialOfer{
 background: url(../Images/special-offersbg.jpg) no-repeat;
+background-position: 27% 0;
+overflow: hidden;
+background-size: 130%;
 }
 .specialOfer_content{
 width:1170px;
 margin:0 auto;
 overflow:hidden;
+padding:150px 0 60px 0 ;
+}
+.specialOfer .specialOfer_content .specialOfer_content_colum1 {
+width:770px;
+float:left;
+overflow:hidden;
+}
+.specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer  {
+height:237px;
+width:370px;
+overflow:hidden;
+text-align:center;
 
 }
- 
+.specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_one .specialOfer_txt {
+background:#e40b1e;
+
+}
+.specialOfer .specialOfer_content .specialOfer_content_colum1  .specialOfer_txt h3{
+font-size:32px;
+padding:32px 0 29px 0; 
+
+}
+.specialOfer .specialOfer_content .specialOfer_content_colum1  .specialOfer_txt p{
+font-size: 17px;
+width: 325px;
+margin: 0 auto;
+line-height: 1.5;
+}
+
+    .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_one {
+    float:left;
+    width: 370px;
+        padding:0 0 25px 0;
+
+    }
+.specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_two .specialOfer_txt {
+background:#e7e0b2;
+
+}
+    .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_two {
+    float:right;
+    width: 370px;
+    padding:0 0 25px 0;
+  
+    }
+    .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_three .specialOfer_txt {
+background:#e7e0b2;
+
+}
+    .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_three{
+    float:left;
+    width: 370px;
+  
+    }
+        .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_four .specialOfer_txt {
+background:#e40b1e;
+
+}
+    .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_Four{
+    float:right;
+    width: 370px;
+  
+    }
+            .specialOfer .specialOfer_content .specialOfer_five .specialOfer_txt {
+background:#d1af87;
+height:237px;
+width:370px;
+overflow:hidden;
+text-align:center;
+color:white;
+}
+ .specialOfer .specialOfer_content .specialOfer_five .specialOfer_txt h3 {
+ font-size:32px;
+padding:32px 0 29px 0; 
+ }
+ .specialOfer .specialOfer_content .specialOfer_five .specialOfer_txt p {
+font-size: 17px;
+width: 325px;
+margin: 0 auto;
+line-height: 1.5;
+ }
+.specialOfer .specialOfer_content .specialOfer_five{
+    float:right;
+    width: 370px;  
+    }
+.search {
+background: url(../Images/search-icon.png) no-repeat;
+height: 70px;
+width: 70px;
+background-position: 21px;
+border-radius: 50%;
+bottom: 35px;
+position: relative;
+left: 45%;
+text-indent:-99999px;
+
+}
+.ofer_search_color1{
+background-color:#d38100;
+}
+.ofer_search_color1:hover{
+background-color:#ff9c00;
+}
+.ofer_search_color2{
+background-color:#8d7d12;
+}
+.ofer_search_color2:hover{
+background-color:#bda81a;
+}
+.ofer_search_color3{
+background-color:#a77438;
+}
+.ofer_search_color3:hover{
+background-color:#df9d4f;
+}
+.stay_Tune{
+background: url(../Images/blackbg.jpg) no-repeat center center;
+background-position: 100% 0;
+overflow: hidden;
+background-size: cover;
+}
+.stay_Tune .stay_Tune_Content{
+width:1170px;
+margin:0 auto;
+overflow:hidden;
+padding:100px 0 0 0;
+}
+.stay_Tune .stay_Tune_Content .feeds_Cupon {
+overflow: hidden;
+padding:0 0 150px 0;
+
+}
+.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_newfeeds {
+background:white;
+width:625px;
+float:left;
+text-align:center;
+overflow:hidden;
+border: none;
+border-radius: 5;
+}
+.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_newfeeds h2{
+background: url(../Images/news-icon.png) no-repeat;
+background-repeat: no-repeat;
+background-position: 50% 25px;
+padding: 162px 0 40px 0;
+font-size: 40px;
+color:#a80000;
+}
+.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_newfeeds .feed{
+width: 520px;
+margin: 0 auto;
+}
+.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_newfeeds .feed .feeds_Cupon_newfeeds_headng_para{
+float:left;
+color:#a80000;
+padding:0 0 25px 0;
+}
+
+.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_newfeeds .feed .feeds_Cupon_newfeeds_date{
+float:right;
+}
+.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_newfeeds .feed .feeds_Cupon_newfeeds_para{
+display: inline-block;
+text-align: justify;
+line-height: 23.2px;
+padding: 0 0 45px 0;
+}
+.grey_Paragraph{
+color:#4f4f4f;
+}
+.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_Cupon{
+float: right;
+}
+.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_Cupon h3{
+background: url(../Images/couponbg.png) no-repeat;
+width: 197px;
+padding: 80px 0 61px 306px;
+font-size: 50px;
+color: white;
+}
+.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_Cupon .feeds_Cupon_Cupon_txt{
+width: 503px;
+background: white;
+text-align:center;
+border: none;
+border-bottom-right-radius:5px;
+border-bottom-left-radius:5px
+	}
+	.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_Cupon .feeds_Cupon_Cupon_txt p{
+width: 400px;
+margin: 0 auto;
+TEXT-ALIGN: justify;
+line-height: 30PX;
+padding: 40px 0 40px 0;
+	}
+	.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_Cupon .feeds_Cupon_Cupon_txt .coupon_button{
+	background:#bf0101;
+	border-radius:5px;
+border-style: none none;
+color: white;
+font-size: 20px;
+height: 50px;
+width: 180px;
+Margin:0 0 63px 0 ;
+;
+	}
+	.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_Cupon .feeds_Cupon_Cupon_txt .coupon_button:hover{
+	background:#d80000;
+	}
+.stay_Tune .stay_Tune_Content .our_customer{
+width: 1060px;
+margin: 0 auto;
+overflow: hidden;
+padding: 0 0 225px 30px;
+}	
+.stay_Tune .stay_Tune_Content .our_customer li{
+Float: left;
+width: 332px;
+height: 350px;
+padding: 0 21px 0 0;
+}	
+.stay_Tune .stay_Tune_Content .our_customer li a{
+text-decoration:none;
+color:white;
+
+}
+.stay_Tune .stay_Tune_Content .our_customer li:nth-child(1){
+background: url(../Images/quotebox1.png) no-repeat;
+}
+.stay_Tune .stay_Tune_Content .our_customer li:nth-child(2){
+background: url(../Images/quotebox2.png) no-repeat;
+}
+.stay_Tune .stay_Tune_Content .our_customer li:nth-child(3){
+background: url(../Images/quotebox3.png) no-repeat;
+padding:0px;
+}
+.stay_Tune .stay_Tune_Content .our_customer li a .our_customer_coments{
+width: 240px;
+margin: 32px 0 0 45px;
+
+}
+.stay_Tune .stay_Tune_Content .our_customer li a .our_customer_coments p{
+padding:0 0 30PX 0 ;
+line-height: 25px;
+}
+.stay_Tune .stay_Tune_Content .our_customer li a .our_customer_coments  big{
+font-size:16px;
+color:#bf0101;
+}
+.stay_Tune .stay_Tune_Content .our_customer li a .our_customer_coments  h4{
+padding:6px 0 0 0 ;
+font-size:16px;
+}
+.stay_Tune .stay_Tune_Content .subscribe{
+
+text-align:center;
+}
+.stay_Tune .stay_Tune_Content .subscribe h2{
+font-size:60px;
+text-align:center;
+color:white;
+padding:0 0 70px 0;
+}
