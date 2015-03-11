@@ -249,7 +249,9 @@ float:left;
 text-align:center;
 overflow:hidden;
 border: none;
-border-radius: 5;
+border-radius:5px;
+box-shadow: 0 0 5px 5px white;
+
 }
 .stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_newfeeds h2{
 background: url(../Images/news-icon.png) no-repeat;
@@ -373,4 +375,221 @@ font-size:60px;
 text-align:center;
 color:white;
 padding:0 0 70px 0;
+}
+.stay_Tune .stay_Tune_Content .subscribe .text_box{
+margin:0 0 40px 0;
+height:50px;
+width:350px;
+padding:0 0 0 10px;
+font-size:20px;
+background:0;
+color:white;
+border-radius: 5px;
+
+}
+.stay_Tune .stay_Tune_Content .subscribe  .btn{
+font-size:20px;
+padding:14px 25px 15px 25px;
+background: #bf0101;
+  border-radius: 5px;
+  border-style: none none;
+  color: white;
+}
+.stay_Tune .stay_Tune_Content .subscribe  .btn:hover{
+background:#d80000;
+}
+.galery{
+  background: url(../Images/gallerybg.jpg) no-repeat center center;
+  background-position: 100% 0;
+  overflow: hidden;
+  background-size: cover;
+}
+.galery_cntent{
+width:1170px;
+margin:0 auto ;
+text-align:center;
+padding:100px 0 0 0;
+}
+.galery_cntent h2{
+font-size:60px;
+color:white;
+padding:0 0 100px 0; 
+}
+.galery .galery_cntent ul{
+overflow:hidden;
+padding:0 0 200px 0;
+}
+.galery .galery_cntent ul li {
+float:left;
+height: 308px;
+  width: 370px;
+  padding: 0 30px 0 0;
+  
+}
+.galery .galery_cntent ul li a{
+  padding: 0px 139px 300px 200px;
+  text-decoration:none;
+}
+
+.galery .galery_cntent ul li:nth-child(1){
+background:url(../Images/gallerypic1.png) no-repeat;
+}
+.galery .galery_cntent ul li:nth-child(2){
+background:url(../Images/gallerypic2.png) no-repeat;
+}
+.galery .galery_cntent ul li:nth-child(3){
+background:url(../Images/gallerypic3.png) no-repeat;
+padding:0px;
+}
+.location{
+ background: url(../Images/mapbg.jpg) no-repeat center center;
+  background-position: 100% 0;
+  overflow: hidden;
+  background-size: cover;
+}
+.location .location_cntnt{
+width:1170px;
+margin:0 auto;
+
+overflow:hidden;
+padding: 80px 0 100px 0;
+
+}
+.location .location_cntnt .location_cntnt_place{
+float:left;
+padding:25px 0 0 0;
+}
+.location .location_cntnt .location_cntnt_place ul li{
+list-style:none;
+}
+.location .location_cntnt .location_cntnt_place ul li a{
+color:#2f3b42;
+text-decoration:none;
+}
+
+.location .location_cntnt .location_cntnt_place ul li h2{
+background:url(../Images/location-icon1.png) no-repeat;
+  padding: 13px 13px 21px 70px;
+  color:#2f3b42;
+  font-size:30px;
+}
+.location .location_cntnt .location_cntnt_place ul li:nth-child(1){
+padding:0 0 47px 0;
+
+}
+.location .location_cntnt .location_cntnt_place ul li:nth-child(2){
+  padding: 0 0 32px 60px;
+
+}
+.location .location_cntnt .location_cntnt_place ul li:nth-child(3){
+   padding: 0 0 42px 57px;
+  background: url(../Images/location-icon2.png) no-repeat;
+  width: 150px;
+  line-height: 24px;
+}
+.location .location_cntnt .location_cntnt_place ul li:nth-child(4){
+padding:0 0  35px 57px;
+  background: url(../Images/phone-icon.png) no-repeat;
+}
+.location .location_cntnt .location_cntnt_place ul li:nth-child(5){
+padding:0 0  35px 57px;
+background: url(../Images/open-icon.png) no-repeat;
+}
+.location .location_cntnt .location_cntnt_place ul li:nth-child(6){
+padding:0 0  35px 57px;
+
+}
+
+.location .location_cntnt .location_cntnt_map{
+float:right;
+}
+.footer{
+ background: url(../Images/footerbg.png) no-repeat center center;
+  overflow: hidden;
+  background-size: cover;
+}
+.footer_cntnt{
+margin:0 auto;
+width:1170px;
+height:600px;
+overflow: hidden;
+padding:80px 0 0 0;
+}
+.footer .footer_cntnt .footer_cntnt_list{
+overflow:hidden;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main{
+float:left;
+padding:0 70px 0 0;	
+  font-size: 15px;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_home li{
+list-style:none;
+ font-size: 15px;
+}
+   
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_home li a{
+text-decoration:none;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_menu li{
+list-style:none;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_menu li a{
+text-decoration:none;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_benquethall li{
+list-style:none;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_benquethall li a{
+text-decoration:none;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Ambiance li{
+list-style:none;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Ambiance li a{
+text-decoration:none;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Twitr_feeds li{
+list-style:none;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main h3{
+color:#e6a05a;
+padding:0 0 30PX 0;
+font-size:18px;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main li {
+padding:0 0 14px 0;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main li a{
+color:white;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Twitr_feeds li{
+padding: 20px 0 0 0;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Twitr_feeds li h3{
+background: url(../Images/tweeter-icon.png) no-repeat;
+font-size:25px;
+padding: 0 0 0 37px;
+
+}
+.footer .footer_cntnt .footer_cntnt_list  .footer_cntnt_list_main.th{
+padding:0px;
+}
+/* .footer .footer_cntnt .footer_cntnt_list  li:nth-child(5){
+padding:0px;
+} */
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Twitr_feeds li   .tweet{
+width:200px;
+color:white;
+overflow:hidden;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Twitr_feeds li   .tweet .tweet_img{
+float:left;
+}
+
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Twitr_feeds li   .tweet .tweet_txt{
+float:right;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Twitr_feeds li:nth-child(1){
+margin: 0 0 0 52px;
 }
