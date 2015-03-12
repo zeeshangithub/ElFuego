@@ -1,5 +1,45 @@
-body{
 
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url('font/AvenirNextLTPro-Regular.eot');
+  src: local(':relaxed:'), url('font/AvenirNextLTPro-Regular.woff')
+   format('woff'), url('font/AvenirNextLTPro-Regular.ttf')
+    format('truetype'), url('font/AvenirNextLTPro-Regular.svg')
+     format('svg');
+} 
+@font-face {
+  font-family: 'AvenirNextLTPro-DemiCn';
+  src: url('font/AvenirNextLTPro-DemiCn.eot');
+  src: local(':relaxed:'), url('font/AvenirNextLTPro-DemiCn.woff')
+   format('woff'), url('font/AvenirNextLTPro-DemiCn.ttf')
+    format('truetype'), url('font/AvenirNextLTPro-DemiCn.svg')
+     format('svg');
+} 
+@font-face {
+  font-family: 'avenirnextltpro-bold';
+  src: url('font/avenirnextltpro-bold.eot');
+  src: local(':relaxed:'), url('font/avenirnextltpro-bold.woff')
+   format('woff'), url('font/avenirnextltpro-bold.ttf')
+    format('truetype'), url('font/avenirnextltpro-bold.svg')
+     format('svg');
+} 
+@font-face {
+  font-family: 'helveticaltstd-boldcond';
+  src: url('font/helveticaltstd-boldcond.eot');
+  src: local(':relaxed:'), url('font/helveticaltstd-boldcond.woff')
+   format('woff'), url('font/helveticaltstd-boldcond.ttf')
+    format('truetype'), url('font/helveticaltstd-boldcond.svg')
+     format('svg');
+} 
+@font-face {
+  font-family: 'helveticaltstd-cond';
+  src: url('font/helveticaltstd-cond.eot');
+  src: local(':relaxed:'), url('font/helveticaltstd-cond.woff')
+   format('woff'), url('font/helveticaltstd-cond.ttf')
+    format('truetype'), url('font/helveticaltstd-cond.svg')
+     format('svg');
+} 
+body{
 }
 .banner{
 background: url(../Images/header-pic.jpg);
@@ -15,6 +55,7 @@ width:1170px;
 margin:0 auto;
 overflow:hidden;
 padding:0 0 10vh 0 ;
+z-index:55555;
 }
 .logo{
 background: url(../Images/elfuego-logo.png) no-repeat;
@@ -38,10 +79,12 @@ padding: 0 0 0 50px;
 list-style:none;
 text-decoration: none;
 font-size:18px;
+font-family:AvenirNextLTPro-Regular;
 }
 #navigation ul li a{
 color:#bebebe;
 text-decoration: none;
+font-family:AvenirNextLTPro-Regular;
 }
  .banner .banner_content #navigation ul li:nth-child(1){
 padding:0;
@@ -54,11 +97,13 @@ margin: 0 auto;
 width: 870px;
 overflow: hidden;
 text-align: center;
+font-family:AvenirNextLTPro-Regular;
  }
  .banner  .banner_content_txt h2 {
- font-size:63px;
+ font-size:60px;
  color:white;
  padding:0 0 25px 0;
+ font-family
  }
   .banner  .banner_content_txt p{
 color: #b4c1c9;
@@ -66,6 +111,7 @@ font-size: 26px;
 width: 682px;
 margin: 0 auto;
 padding:0 0 45px 0;
+font-family:AvenirNextLTPro-Regular;
 
   }
   .banner  .banner_content_btn{
@@ -73,6 +119,7 @@ padding:0 0 45px 0;
  width:400px;
  text-align: center;
  padding:0 0 21vh 0;
+ font-family:AvenirNextLTPro-Regular;
  }
  .banner  .banner_content_btn #banner_button{
  Margin:0 18px 0 0;
@@ -130,6 +177,7 @@ background:#e40b1e;
 .specialOfer .specialOfer_content .specialOfer_content_colum1  .specialOfer_txt h3{
 font-size:32px;
 padding:32px 0 29px 0; 
+font-family:AvenirNextLTPro-DemiCn;
 
 }
 .specialOfer .specialOfer_content .specialOfer_content_colum1  .specialOfer_txt p{
@@ -137,12 +185,18 @@ font-size: 17px;
 width: 325px;
 margin: 0 auto;
 line-height: 1.5;
+font-family:AvenirNextLTPro-Regular;
+font-size:17px;
 }
 
     .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_one {
     float:left;
     width: 370px;
-        padding:0 0 25px 0;
+        Margin:0 0 25px 5px;
+		position:relative;
+		  -webkit-box-shadow: 0px 3px 46px 0px black;
+  -moz-box-shadow: 0px 3px 46px 0px black;
+  box-shadow: 0px 0px 9px 0px #627683;
 
     }
 .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_two .specialOfer_txt {
@@ -152,8 +206,11 @@ background:#e7e0b2;
     .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_two {
     float:right;
     width: 370px;
-    padding:0 0 25px 0;
-  
+    margin:0 5px 25px 0;
+	position:relative;
+  	  -webkit-box-shadow: 0px 3px 46px 0px black;
+  -moz-box-shadow: 0px 3px 46px 0px black;
+  box-shadow: 0px 0px 9px 0px #627683;
     }
     .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_three .specialOfer_txt {
 background:#e7e0b2;
@@ -161,8 +218,12 @@ background:#e7e0b2;
 }
     .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_three{
     float:left;
-    width: 370px;
-  
+  width: 370px;
+    margin:0 0 25px 5px;
+	position:relative;
+  	  -webkit-box-shadow: 0px 3px 46px 0px black;
+  -moz-box-shadow: 0px 3px 46px 0px black;
+  box-shadow: 0px 0px 9px 0px #627683;
     }
         .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_four .specialOfer_txt {
 background:#e40b1e;
@@ -171,6 +232,11 @@ background:#e40b1e;
     .specialOfer .specialOfer_content .specialOfer_content_colum1 .specialOfer_Four{
     float:right;
     width: 370px;
+    margin:0 5px 25px 0;
+	position:relative;
+		  -webkit-box-shadow: 0px 3px 46px 0px black;
+  -moz-box-shadow: 0px 3px 46px 0px black;
+  box-shadow: 0px 0px 9px 0px #627683;
   
     }
             .specialOfer .specialOfer_content .specialOfer_five .specialOfer_txt {
@@ -184,27 +250,36 @@ color:white;
  .specialOfer .specialOfer_content .specialOfer_five .specialOfer_txt h3 {
  font-size:32px;
 padding:32px 0 29px 0; 
+font-family:AvenirNextLTPro-regular;
  }
  .specialOfer .specialOfer_content .specialOfer_five .specialOfer_txt p {
 font-size: 17px;
 width: 325px;
 margin: 0 auto;
 line-height: 1.5;
+font-family:AvenirNextLTPro-Regular;
  }
 .specialOfer .specialOfer_content .specialOfer_five{
     float:right;
-    width: 370px;  
-    }
+
+  width: 370px;
+    margin:0 5px 25px 0;
+	position:relative;	
+	  -webkit-box-shadow: 0px 3px 46px 0px black;
+  -moz-box-shadow: 0px 3px 46px 0px black;
+  box-shadow: 0px 0px 9px 0px #627683;   
+   }
 .search {
 background: url(../Images/search-icon.png) no-repeat;
 height: 70px;
 width: 70px;
 background-position: 21px;
 border-radius: 50%;
+position: absolute;
 bottom: 35px;
-position: relative;
 left: 45%;
 text-indent:-99999px;
+float:left;
 
 }
 .ofer_search_color1{
@@ -250,7 +325,6 @@ text-align:center;
 overflow:hidden;
 border: none;
 border-radius:5px;
-box-shadow: 0 0 5px 5px white;
 
 }
 .stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_newfeeds h2{
@@ -260,6 +334,7 @@ background-position: 50% 25px;
 padding: 162px 0 40px 0;
 font-size: 40px;
 color:#a80000;
+font-family:AvenirNextLTPro-DemiCn;
 }
 .stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_newfeeds .feed{
 width: 520px;
@@ -269,16 +344,22 @@ margin: 0 auto;
 float:left;
 color:#a80000;
 padding:0 0 25px 0;
+font-family:avenirnextltpro-bold;
+
 }
 
 .stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_newfeeds .feed .feeds_Cupon_newfeeds_date{
 float:right;
+font-family:AvenirNextLTPro-regular;
+font-size:16px;
 }
 .stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_newfeeds .feed .feeds_Cupon_newfeeds_para{
 display: inline-block;
 text-align: justify;
 line-height: 23.2px;
 padding: 0 0 45px 0;
+font-family:AvenirNextLTPro-regular;
+font-size:15px;
 }
 .grey_Paragraph{
 color:#4f4f4f;
@@ -292,6 +373,8 @@ width: 197px;
 padding: 80px 0 61px 306px;
 font-size: 50px;
 color: white;
+font-family:myriad pro;
+  font-weight: 100;
 }
 .stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_Cupon .feeds_Cupon_Cupon_txt{
 width: 503px;
@@ -299,14 +382,18 @@ background: white;
 text-align:center;
 border: none;
 border-bottom-right-radius:5px;
-border-bottom-left-radius:5px
+border-bottom-left-radius:5px;
+font-family:AvenirNextLTPro-regular;
 	}
 	.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_Cupon .feeds_Cupon_Cupon_txt p{
-width: 400px;
-margin: 0 auto;
-TEXT-ALIGN: justify;
-line-height: 30PX;
-padding: 40px 0 40px 0;
+  width: 400px;
+  margin: 0 auto;
+  TEXT-ALIGN: justify;
+  line-height:39PX;
+  padding: 45px 0 45px 0;
+  font-family: myriad pro;
+  font-weight: 100;
+  color: #4f4f4f;
 	}
 	.stay_Tune .stay_Tune_Content .feeds_Cupon .feeds_Cupon_Cupon .feeds_Cupon_Cupon_txt .coupon_button{
 	background:#bf0101;
@@ -327,6 +414,7 @@ width: 1060px;
 margin: 0 auto;
 overflow: hidden;
 padding: 0 0 225px 30px;
+  font-family: AvenirNextLTPro-regular;
 }	
 .stay_Tune .stay_Tune_Content .our_customer li{
 Float: left;
@@ -365,6 +453,7 @@ color:#bf0101;
 .stay_Tune .stay_Tune_Content .our_customer li a .our_customer_coments  h4{
 padding:6px 0 0 0 ;
 font-size:16px;
+color:black;
 }
 .stay_Tune .stay_Tune_Content .subscribe{
 
@@ -375,6 +464,8 @@ font-size:60px;
 text-align:center;
 color:white;
 padding:0 0 70px 0;
+  font-family: AvenirNextLTPro-regular;
+  font-weight:400;
 }
 .stay_Tune .stay_Tune_Content .subscribe .text_box{
 margin:0 0 40px 0;
@@ -414,6 +505,8 @@ padding:100px 0 0 0;
 font-size:60px;
 color:white;
 padding:0 0 100px 0; 
+  font-family: AvenirNextLTPro-regular;
+  font-weight:400;
 }
 .galery .galery_cntent ul{
 overflow:hidden;
@@ -458,6 +551,7 @@ padding: 80px 0 100px 0;
 .location .location_cntnt .location_cntnt_place{
 float:left;
 padding:25px 0 0 0;
+  font-family: AvenirNextLTPro-regular;
 }
 .location .location_cntnt .location_cntnt_place ul li{
 list-style:none;
@@ -472,6 +566,8 @@ background:url(../Images/location-icon1.png) no-repeat;
   padding: 13px 13px 21px 70px;
   color:#2f3b42;
   font-size:30px;
+  font-family:avenirnextltpro-bold;
+  
 }
 .location .location_cntnt .location_cntnt_place ul li:nth-child(1){
 padding:0 0 47px 0;
@@ -494,6 +590,7 @@ padding:0 0  35px 57px;
 .location .location_cntnt .location_cntnt_place ul li:nth-child(5){
 padding:0 0  35px 57px;
 background: url(../Images/open-icon.png) no-repeat;
+font-family:avenirnextltpro-bold;
 }
 .location .location_cntnt .location_cntnt_place ul li:nth-child(6){
 padding:0 0  35px 57px;
@@ -556,12 +653,14 @@ list-style:none;
 color:#e6a05a;
 padding:0 0 30PX 0;
 font-size:18px;
+font-family:helveticaltstd-boldcond;
 }
 .footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main li {
 padding:0 0 14px 0;
 }
 .footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main li a{
 color:white;
+font-family:helveticaltstd-cond;
 }
 .footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Twitr_feeds li{
 padding: 20px 0 0 0;
@@ -579,7 +678,7 @@ padding:0px;
 padding:0px;
 } */
 .footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Twitr_feeds li   .tweet{
-width:200px;
+width:230px;
 color:white;
 overflow:hidden;
 }
@@ -589,7 +688,25 @@ float:left;
 
 .footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Twitr_feeds li   .tweet .tweet_txt{
 float:right;
+width:144px;
 }
 .footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main .footer_cntnt_list_Twitr_feeds li:nth-child(1){
 margin: 0 0 0 52px;
+text-align:center;
+}
+#first_twet{
+padding:0 0 20px 0;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main input{
+font-size:14px;
+font-family:Myriad Pro;
+  padding: 9px 13px 9px 13px;
+  background: #00b0ed;
+  border-radius: 5px;
+  border-style: none none;
+  color: white;
+  margin:0 0 0 12px;
+}
+.footer .footer_cntnt .footer_cntnt_list .footer_cntnt_list_main input:hover{
+background:#0092c5;
 }
