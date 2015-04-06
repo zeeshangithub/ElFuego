@@ -1,0 +1,98 @@
+﻿@media only screen and (max-width: 40em) {
+
+    .banner h2 {
+    font-size:23px;
+     }
+
+}
+@media only screen and (max-width: 40em) {
+    .banner {
+ padding: 7vh 0 0 0;
+
+    }
+}
+@media only screen and (max-width: 40em) {
+    .banner p {
+        font-size:13px;
+    }
+
+}
+@media only screen and (max-width: 40em) {
+    .banner .banner_content_btn .baner_btn {
+ width: 79px;
+  font-size: 14px;
+  padding: 10px 0 0 0;
+  height: 34px;
+  margin: 0 !important;;
+}
+    }
+
+@media only screen and (max-width: 40em) {
+    .banner .banner_content_btn {
+      padding: 0 0 2vh 0;
+    
+    }
+}
+@media only screen and (max-width: 40em) {
+.tab-bar {
+  height: 6rem;    
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .logo {
+    padding: 97px 0 0px 80px;
+    
+    
+    }
+}
+@media only screen and (max-width: 40em) {
+    .right-small
+  {
+    margin:28px 0 0 0;
+    
+    }
+}
+@media only screen and (max-width: 40em) {
+    .stay_Tune .stay_Tune_Content .our_customer li a .our_customer_coments {
+        margin: 12px 0 0 8px;
+    }
+
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+        .stay_Tune .stay_Tune_Content .our_customer li a .our_customer_coments p {
+            font-size: 15px;
+            padding: 0;
+            margin: 0;
+            line-height: 10;
+        }
+    }
+
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+        .stay_Tune .stay_Tune_Content .our_customer li a .our_customer_coments {
+            margin: 16px 0px 0 10px;
+        }
+    }
+
+    @media only screen and (max-width: 40em) {
+        .stay_Tune .stay_Tune_Content .our_customer li a .our_customer_coments p {
+            padding: 0;
+            margin: 0;
+            line-height: 14px;
+            font-size: 11px;
+        }
+    }
+
+    @media only screen and (max-width: 40em) {
+        .stay_Tune .stay_Tune_Content .our_customer li {
+        
+          height: 235px;
+        }
+    }
+    @media only screen and (max-width: 40em) {
+        .stay_Tune .stay_Tune_Content .our_customer li a .our_customer_coments h4 {
+          padding: 0;
+  margin: 0;
+        }
+         }
+    

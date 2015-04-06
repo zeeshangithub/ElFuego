@@ -1,0 +1,28 @@
+<section class="banner">
+	<section class="banner_content">
+	 <a href="#"> <h1 class="logo">Elfuego</h1></a>
+        <nav id="navigation">
+            <ul>
+				<li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Kids Menu</a></li>
+                <li><a href="#">Banquet Hall</a></li>
+                <li><a href="#">Ambiance</a></li>
+				<li><a href="#">Location</a></li>
+				<li><a href="#">FeedBack</a></li>
+            </ul>
+        </nav>
+	</section>
+	<section class="banner_content_txt">
+		<h2>Welcome Mexican Restaurante</h2>
+		<p>Milwaukee's premiere Mexican dining experience. We invite you to join
+us as we embark upon a culinary voyage of Mexican delights.</p>
+	</section>
+	<section class="banner_content_btn" >
+	<input class="baner_btn" id="banner_button" type="button" value="Hot Deals" />
+	<input class="baner_btn" id="banner_button1" type="button" value="Menu" />
+	</section>
+	<section class="banner_content_img">
+	<img src="Images/more-icon.png" alt="plates" />
+	</section>
+</section>

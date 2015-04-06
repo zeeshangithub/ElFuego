@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D36FB36-ECBB-406B-B6AB-332E2B710CEE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Elfegup</RootNamespace>
+    <AssemblyName>Elfegup</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\blackbg.jpg" />
+    <Content Include="Images\couponbg.png" />
+    <Content Include="Images\elfuego-logo.png" />
+    <Content Include="Images\facebook.png" />
+    <Content Include="Images\footerbg.png" />
+    <Content Include="Images\g.png" />
+    <Content Include="Images\gallerybg.jpg" />
+    <Content Include="Images\gallerypic1.png" />
+    <Content Include="Images\gallerypic2.png" />
+    <Content Include="Images\gallerypic3.png" />
+    <Content Include="Images\header-pic.jpg" />
+    <Content Include="Images\in.png" />
+    <Content Include="Images\location-icon1.png" />
+    <Content Include="Images\location-icon2.png" />
+    <Content Include="Images\map.jpg" />
+    <Content Include="Images\mapbg.jpg" />
+    <Content Include="Images\more-icon.png" />
+    <Content Include="Images\news-icon.png" />
+    <Content Include="Images\offers-pic1.jpg" />
+    <Content Include="Images\offers-pic2.jpg" />
+    <Content Include="Images\offers-pic3.jpg" />
+    <Content Include="Images\offers-pic4.jpg" />
+    <Content Include="Images\offers-pic5.jpg" />
+    <Content Include="Images\open-icon.png" />
+    <Content Include="Images\phone-icon.png" />
+    <Content Include="Images\pin.png" />
+    <Content Include="Images\quotebox1.png" />
+    <Content Include="Images\quotebox2.png" />
+    <Content Include="Images\quotebox3.png" />
+    <Content Include="Images\search-icon.png" />
+    <Content Include="Images\special-offersbg.jpg" />
+    <Content Include="Images\tweeter-icon.png" />
+    <Content Include="Images\twitter-pic.png" />
+    <Content Include="Images\twitter.png" />
+    <Content Include="index.html" />
+    <Content Include="new  1.txt" />
+    <Content Include="script\custom_scripts.js" />
+    <Content Include="script\foundation.js" />
+    <Content Include="script\foundation.min.css" />
+    <Content Include="script\foundation.min.js" />
+    <Content Include="script\foundation\foundation.abide.js" />
+    <Content Include="script\foundation\foundation.accordion.js" />
+    <Content Include="script\foundation\foundation.alert.js" />
+    <Content Include="script\foundation\foundation.clearing.js" />
+    <Content Include="script\foundation\foundation.dropdown.js" />
+    <Content Include="script\foundation\foundation.equalizer.js" />
+    <Content Include="script\foundation\foundation.interchange.js" />
+    <Content Include="script\foundation\foundation.joyride.js" />
+    <Content Include="script\foundation\foundation.js" />
+    <Content Include="script\foundation\foundation.magellan.js" />
+    <Content Include="script\foundation\foundation.offcanvas.js" />
+    <Content Include="script\foundation\foundation.orbit.js" />
+    <Content Include="script\foundation\foundation.reveal.js" />
+    <Content Include="script\foundation\foundation.slider.js" />
+    <Content Include="script\foundation\foundation.tab.js" />
+    <Content Include="script\foundation\foundation.tooltip.js" />
+    <Content Include="script\foundation\foundation.topbar.js" />
+    <Content Include="script\jquery-1.6.1.min.js" />
+    <Content Include="script\jquery.js" />
+    <Content Include="script\vendor\fastclick.js" />
+    <Content Include="script\vendor\foundation.min.js" />
+    <Content Include="script\vendor\jquery.cookie.js" />
+    <Content Include="script\vendor\jquery.js" />
+    <Content Include="script\vendor\modernizr.js" />
+    <Content Include="script\vendor\placeholder.js" />
+    <Content Include="styles\font\avenirnextltpro-bold.svg" />
+    <Content Include="styles\font\AvenirNextLTPro-DemiCn.svg" />
+    <Content Include="styles\font\AvenirNextLTPro-Regular.svg" />
+    <Content Include="styles\font\helveticaltstd-boldcond.svg" />
+    <Content Include="styles\font\helveticaltstd-cond.svg" />
+    <Content Include="styles\foundation.css" />
+    <Content Include="styles\foundation.min.css" />
+    <Content Include="styles\media-Queries.css" />
+    <Content Include="styles\normalize.css" />
+    <Content Include="styles\reset-styles-1.6.1.css" />
+    <Content Include="styles\Style.css" />
+    <Content Include="Web.config" />
+    <Content Include="working_offcanvas.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="styles\font\avenirnextltpro-bold.eot" />
+    <Content Include="styles\font\avenirnextltpro-bold.otf" />
+    <Content Include="styles\font\avenirnextltpro-bold.ttf" />
+    <Content Include="styles\font\avenirnextltpro-bold.woff" />
+    <Content Include="styles\font\AvenirNextLTPro-DemiCn.eot" />
+    <Content Include="styles\font\AvenirNextLTPro-DemiCn.otf" />
+    <Content Include="styles\font\AvenirNextLTPro-DemiCn.ttf" />
+    <Content Include="styles\font\AvenirNextLTPro-DemiCn.woff" />
+    <Content Include="styles\font\AvenirNextLTPro-Regular.eot" />
+    <Content Include="styles\font\AvenirNextLTPro-Regular.otf" />
+    <Content Include="styles\font\AvenirNextLTPro-Regular.ttf" />
+    <Content Include="styles\font\AvenirNextLTPro-Regular.woff" />
+    <Content Include="styles\font\helveticaltstd-boldcond.eot" />
+    <Content Include="styles\font\helveticaltstd-boldcond.otf" />
+    <Content Include="styles\font\helveticaltstd-boldcond.ttf" />
+    <Content Include="styles\font\helveticaltstd-boldcond.woff" />
+    <Content Include="styles\font\helveticaltstd-cond.eot" />
+    <Content Include="styles\font\helveticaltstd-cond.otf" />
+    <Content Include="styles\font\helveticaltstd-cond.ttf" />
+    <Content Include="styles\font\helveticaltstd-cond.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>48535</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48535/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

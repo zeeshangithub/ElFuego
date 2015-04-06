@@ -1,0 +1,71 @@
+    <section class='contain-to-grid sticky hide-for-small-only'>
+      <nav class='top-bar navigation' data-options='sticky_on: large' data-topbar='' role='navigation'>
+    <a href="#"> <h1 class="logo">Elfuego</h1></a>
+        <section class='top-bar-section'>
+          <ul class='navigation right'>
+            <li>
+              <a href='#'>Home</a>
+            </li>
+            <li>
+              <a href='#'>Blog</a>
+            </li>
+            <li>
+              <a href='#'>Portfolio</a>
+            </li>
+            <li>
+              <a href='#'>Contact</a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </section>
+    <section class='off-canvas-wrap ' data-offcanvas=''>
+      <section class='inner-wrap'>
+        <nav class='show-for-small-only tab-bar' data-no-turbolink=''>
+          <section class='left tab-bar-section'>
+            <h1 class='title left logo' ></h1>
+          </section>
+          <section class='right-small'>
+            <a class='right-off-canvas-toggle menu-icon' href='#'>
+              <span></span>
+            </a>
+          </section>
+        </nav>
+        <aside class='right-off-canvas-menu'>
+          <ul class='off-canvas-list'>
+            <li>
+              <a href='#'>Home</a>
+            </li>
+            <li>
+              <a href='#'>Blog</a>
+            </li>
+            <li>
+              <a href='#'>Portfolio</a>
+            </li>
+            <li>
+              <a href='#'>Contact</a>
+            </li>
+          </ul>
+        </aside>
+		<section class="banner">
+		
+        <section class='row'>
+		
+                    	<h2>Welcome Mexican Restaurante</h2>
+		<p>Milwaukee's premiere Mexican dining experience. We invite you to join
+us as we embark upon a culinary voyage of Mexican delights.</p>
+	
+	<section class="banner_content_btn" >
+	<input class="baner_btn" id="banner_button" type="button" value="Hot Deals" />
+	<input class="baner_btn" id="banner_button1" type="button" value="Menu" />
+	</section>
+	<section class="banner_content_img">
+	<img src="Images/more-icon.png" alt="plates" />
+          </section>
+        </section>
+		</section>
+    
+        <a class='exit-off-canvas'></a>
+      </section>
+    </section>
+
